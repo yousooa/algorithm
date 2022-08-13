@@ -1,4 +1,5 @@
 # map() : 리스트의 모든 원소에 각각 특정한 함수를 적용할 때 사용
+# map(함수, 리스트 또는 튜플)
 # ex) list(map(int, input().split()))
 
 data = list(map(int, input().split()))
