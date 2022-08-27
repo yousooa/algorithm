@@ -10,7 +10,7 @@ print(result) # 16
 
 # 순열
 from itertools import combinations_with_replacement, count, permutations
-from math import prod
+from math import gcd, prod
 from traceback import print_tb
 data = ['A', 'B', 'C']
 
@@ -44,7 +44,7 @@ print(counter['green'])
 print(counter)
 print(dict(counter))
 
-# 최대 공약수, 최소 공배수
+# 최대 공약수(gcd), 최소 공배수(lcm)
 import math
 
 def lcm(a, b):

@@ -95,3 +95,7 @@ print([i for i in range(a.__len__()) if a[i] == 10]) # [1, 5]
 a = [[1, 10], [10, 2]]
 a_index = [(i, j) for i in range(2) for j in range(2) if a[i][j] == 10]
 print(a_index)
+
+# 요소 합
+b = [1, 2, 3, 4]
+print(sum(b))
